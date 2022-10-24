@@ -55,6 +55,7 @@
     margin: auto;
     background-color: black;
     padding: 5vh;
+    justify-content: center;
 }
 
 .card{
