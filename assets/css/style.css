@@ -51,7 +51,7 @@
 }
 
 .cards{
-    height: calc(100vh - 100px);
+    flex-grow: 1;
     margin: auto;
     background-color: black;
     padding: 5vh;
@@ -79,7 +79,6 @@
 
 /* PSEUDO-FOOTER */
 .down-menu{
-    height: 100px;
     background-color: #7fffd4;
     text-align: center;
     align-items: center;
@@ -95,6 +94,10 @@
     padding: 0 10px;
 }
 
+.left-menu > div{
+    padding: 10px 0;
+}
+
 .icons{
     flex-basis: 80%;
     padding: 0 20%;
@@ -106,7 +109,7 @@
 }
 
 .icons .fa-solid, .left-menu .fa-solid{
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 10px;
 }
 
