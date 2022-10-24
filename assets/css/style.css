@@ -31,8 +31,8 @@
 .up-menu{
     position: fixed;
     z-index: 1;
-    right:0;
-    top:0;
+    right:10px;
+    top:10px;
     justify-content: space-between;
     width: 160px;
 }
